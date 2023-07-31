@@ -2,14 +2,13 @@
 #cabeça{
             
     background-color: black;
-    max-width: 98vw;
+    width: 98%;
     height: 350px;
     color: white;
     text-align: center;
-    font-size: 48px;
-    margin-top: 0%;
+    font-size: 42px;
+    margin-top: 0px;
     padding: 10px;
-    margin-top: 0;
 }
 a:hover{
     text-decoration: underline;
@@ -21,9 +20,10 @@ a{
     margin: auto;
     font-weight: bolder;
 }
-body{
+section.imagem{
     background-image: url(imagens/background001.jpg);
     background-attachment: fixed;
+    background-position: right center;
 }
 p{
     width: 350px;
@@ -31,10 +31,10 @@ p{
     font-size: 32px;
     background-attachment: scroll;
     text-align:left;
-    border:1px rgba(90, 89, 89, 0.041) solid;
     background-color:transparent;
     margin-top: 0%;
     padding: 10px;
+    padding-bottom: 2em;
 }
  section.normal{
 background-color: white;
@@ -43,23 +43,25 @@ margin-top:20px;
 background-attachment:scroll;
 position: relative;
 }
-section.imagem{
+section.imagem>p{
+ color: white;
  display: inline-block;
  padding: 5px;
- background-color:transparent;
+ background-color:rgba(37, 37, 37, 0.048);
  background-attachment: scroll;
-}
-section.imagem>p{
-color: white;
 }
 section.imagem2{
     background-image: url(imagens/background002.jpg);
-    background-attachment: scroll;
+    background-attachment:fixed;
     background-repeat: no-repeat;
     transform: translate(-50% -50%);
     background-position: center center;
 }
+section.imagem>p{
+    background-color: rgba(20, 20, 20, 0.274);
+}
 section.imagem2>p{
+    background-color:rgba(24, 23, 23, 0.253) ;
     color: white;
 }
 footer{
